@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="#5cae8a"
+    tools:targetApi="lollipop">
+    <item android:drawable="@drawable/background_singin"/>
+    <item android:id="@android:id/mask">
+        <inset android:insetBottom="1dp"
+            android:insetLeft="1dp"
+            android:insetRight="1dp"
+            android:insetTop="1dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="25dp"/>
+                <solid android:color="#5cae8a"/>
+            </shape>
+        </inset>
+    </item>
+</ripple>

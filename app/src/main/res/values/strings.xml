@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Yppui App</string>
+    <string name="logout">Log Out</string>
+    <string name="ubah_password">Ubah Password</string>
+    <string name="histori_pembayaran">Histori Pembayaran</string>
+    <string name="detil_pembayaran_formulir_title">Pembayaran Formulir</string>
+    <string name="detil_pembayaran_formulir_pesan">Segera lakukan pembayaran formulir melalui bank, sebesar</string>
+    <string name="detil_pembayaran_formulir_bank">BRI A/N SMP Yppui 08123456789</string>
+    <string name="detil_pembayaran_sekolah_title">Pembayaran Sekolah</string>
+    <string name="detil_pembayaran_sekolah_pesan">Pembayaran sekolah melalui bank sebesar Rp. 1.250.000,- bisa diangsur sebanyak 2 kali dalam 1 tahun, uang muka minimal Rp. 500.000,-</string>
+    <string name="detil_pembayaran_sekolah_bank">BRI A/N SMP Yppui 08123456789</string>
+    <string name="sisa_pembayaran_sekolah">Segera melunasi sisa pembayaran yang belum di bayarkan, sisa pembayaran sebesar :</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+</resources>

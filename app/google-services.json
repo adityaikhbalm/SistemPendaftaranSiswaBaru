@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "306543515",
+    "firebase_url": "https://smp-yppui.firebaseio.com",
+    "project_id": "smp-yppui",
+    "storage_bucket": "smp-yppui.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306543515:android:2290a980fde085a1",
+        "android_client_info": {
+          "package_name": "id.sch.yppui.smp.yppuiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306543515-o4oim73m45s06mdpv09mbqep0uiifatv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmTvYN3icIj265McURhjt2N1zhLHHknMA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

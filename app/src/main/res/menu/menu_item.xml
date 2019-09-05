@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_histori_pembayaran_btn"
+        android:title="@string/histori_pembayaran" />
+    <item
+        android:id="@+id/main_ubah_password_btn"
+        android:title="@string/ubah_password" />
+    <item
+        android:id="@+id/main_logout_btn"
+        android:title="@string/logout" />
+
+</menu>

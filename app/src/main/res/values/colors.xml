@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="titleBar">#5cae8a</color>
+    <color name="statusBar">#59ce9b</color>
+    <color name="white">#ffffff</color>
+    <color name="slider_1">#976DD0</color>
+    <color name="slider_2">#9bcc5f</color>
+    <color name="slider_3">#F95F62</color>
+    <color name="style1">#f9c15f</color>
+    <color name="abu">#eae5e5</color>
+    <color name="colorRed">#ff3943</color>
+    <color name="colorRedDark">#801b20</color>
+    <color name="colorGreen">#247b37</color>
+    <color name="colorGreen2">#3eb959</color>
+    <color name="colorGreenLight">#abffc0</color>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bayar_sekolah"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtHari"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="62dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtJam"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtHari"
+        android:layout_alignBottom="@+id/txtHari"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/txtHari"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMenit"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtJam"
+        android:layout_alignBottom="@+id/txtJam"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/txtJam"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDetik"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtMenit"
+        android:layout_alignBottom="@+id/txtMenit"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/txtMenit"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/buktiPembayaran"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        app:srcCompat="@drawable/no_image" />
+
+    <Button
+        android:id="@+id/btnPilih"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buktiPembayaran"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="43dp"
+        android:background="@color/statusBar"
+        android:text="Pilih"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/buktiPembayaran"
+        android:layout_marginTop="43dp"
+        android:layout_toEndOf="@+id/btnPilih"
+        android:background="@color/abu"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDetil"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@color/slider_2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Detil Pembayaran"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+</RelativeLayout>
